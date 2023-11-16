@@ -1,0 +1,94 @@
+*{margin: 0;}
+
+.header {
+    background: #0fb7d4;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(16, 13, 13);
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.control-panel {
+    background: lightgray;
+    text-align: center;
+    padding: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.languages {
+    background: white;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+     /* Use flexbox */
+}
+
+.editor, .ioput {
+    flex: 1;
+    padding: 10px;
+}
+.editor{
+    border: 2px solid rgb(153, 96, 96);
+}
+#editor { height: 600px; }
+
+.button-container {
+    text-align: right;
+    padding: 4px;
+}
+
+.btn {
+    background: #148015;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border: 0;
+    font-size: 15px;
+    transition: transform 0.3s ease;
+}
+
+.button-clicked {
+    background-color: #4CAF50; /* Change to the color you want */
+}
+
+.button-up {
+    transform: translateY(-5px); /* Adjust the movement distance as needed */
+    transition: transform 0.3s ease;
+}
+
+.ioput {
+        padding: 4px;
+        border: 2px solid rgb(153, 96, 96);
+        min-height: 100px;
+        width: 99%;
+        resize: none;
+}
+
+.output {
+    padding: 4px;
+    border: 2px solid rgb(153, 96, 96);
+    min-height: 275px;
+}
+
+.input {
+    padding : 4px;
+    min-height: 275px;
+    border: 2px solid rgb(153, 96, 96);
+}
+
+.heading {
+    background-color: #4CAF50;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
