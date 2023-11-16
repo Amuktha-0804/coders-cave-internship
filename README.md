@@ -1,4 +1,5 @@
 # coders-cave-internship
+GOLDEN TASK
 Online Code Editor:
 This is the project of a code editor where i have incorporated the running of 5 differenty languages.
 
@@ -16,6 +17,7 @@ Report :
 3-----After writing the code , we need to give a Input.
 4-----Then we need to run and get Output.
 
+NORMAL TASK
 Netflix Clone Page:
 This is the project of Netflix Clone Page where i have incorporated a Userfriendly page.
 
